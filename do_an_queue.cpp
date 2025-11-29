@@ -105,7 +105,6 @@ int main() {
   
     int choice, ticketNumber = 1;
 
-    while (true) {
         cout << "\n--- HỆ THỐNG XẾP HÀNG MUA VÉ ---\n";
         cout << "1. Lấy số thứ tự (khách đến)\n";
         cout << "2. Gọi khách vào mua vé (Dequeue)\n";
@@ -114,7 +113,8 @@ int main() {
         cout << "5. Hiển thị toàn bộ danh sách (Display)\n";
         cout << "6. Đếm số người đang đợi (Size)\n";
         cout << "0. Thoát\n";
-        cout << "Nhập lựa chọn: ";
+    while (true) {
+            cout << "Nhập lựa chọn: ";
         cin >> choice;
 
         switch (choice) {
