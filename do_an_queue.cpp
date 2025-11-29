@@ -114,7 +114,7 @@ int main() {
         cout << "6. Đếm số người đang đợi (Size)\n";
         cout << "0. Thoát\n";
     while (true) {
-            cout << "Nhập lựa chọn: ";
+        cout << "Nhập lựa chọn: ";
         cin >> choice;
 
         switch (choice) {
